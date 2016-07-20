@@ -5,8 +5,8 @@ do_bc     = .true.
 do_ic     = .true.
 domain    = 1
 
-dir_wrf              = '/data/$USER/WRFCHEM/' 
-dir_moz = '/data/$USER/MOZART/'
+dir_wrf = '../../WRFV3/run/' 
+dir_moz = '../data/'
 fn_moz  = 'hb0068.nc'
 
 spc_map = 'co -> CO', 

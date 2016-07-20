@@ -4,8 +4,8 @@
 do_bc     = .true.
 do_ic     = .true.
 domain    = 1
-dir_wrf              = '/data/$USER/WRFCHEM/'
-dir_moz = '/data/$USER/MOZART/'
+dir_wrf = '../../WRFV3/run/'
+dir_moz = '../data/'
 fn_moz  = 'ha0004.nc'
 
 spc_map = 'co -> CO', 'o3 -> O3', 'so2 -> SO2', 'no -> NO', 'no2 -> NO2',

@@ -1,0 +1,4 @@
+All the input files have been modified to assume that the downloaded MOZART file will
+be stored in a folder/link to a folder named data in this directory. You should add
+that folder or link. This is also where the configure script for AutoWRFChem will
+look for those files.

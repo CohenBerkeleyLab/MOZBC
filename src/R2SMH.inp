@@ -5,8 +5,8 @@ do_bc     = .true.
 do_ic     = .true.
 domain    = 1
 
-dir_wrf  = '/global/scratch/azare/Josh/WRFV3/test/em_real/'
-dir_moz = '/global/scratch/azare/DATA/MOZART_Global_Data_2013/'
+dir_wrf  = '../../WRFV3/run/'
+dir_moz = '../data/'
 fn_moz  = 'FB0001.nc'
 
 spc_map = 'co -> CO',

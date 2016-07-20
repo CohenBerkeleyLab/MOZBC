@@ -3,8 +3,8 @@
 do_bc     = .true.
 do_ic     = .true.
 domain    = 1
-dir_wrf              = '/data/$USER/WRFCHEM/'
-dir_moz = '/data/$USER/MOZART/'
+dir_wrf   = '../../WRFV3/run/'
+dir_moz = '../data/'
 fn_moz  = 'hb0000.nc'
 
 spc_map = 'o3 -> O3', 'o -> O', 'o1d_cb4 -> O1D', 'n2o -> N2O', 'no -> NO',
