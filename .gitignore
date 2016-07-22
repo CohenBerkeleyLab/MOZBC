@@ -1,2 +1,4 @@
 # Ignore the data link/directory
 data
+# Ignore the mozbc executable
+src/mozbc
