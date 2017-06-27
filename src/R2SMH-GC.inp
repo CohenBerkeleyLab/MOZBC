@@ -1,0 +1,66 @@
+
+&control
+
+do_bc     = .true.
+do_ic     = .true.
+domain    = 1
+
+dir_wrf  = '../../WRFV3/run/'
+dir_moz = '../data/'
+fn_moz = 'geosBC.nc'
+
+spc_map = 'co -> CO',
+          'o3 -> O3',
+          'so2 -> SO2',
+          'no -> NO',
+          'no2 -> NO2',
+          'h2o2 -> H2O2',
+          'hno3 -> HNO3',
+          'n2o5 -> N2O5',
+          'nh3 -> NH3',
+          'hcho -> CH2O',
+          'pan -> PAN',
+          'hno4 -> HNO4',
+          'eth -> C2H6',
+          'hc3 -> C3H8',
+          'hc5 -> ALK4',
+          'iso -> ISOP',
+          'macr -> MACR',
+          'glyc -> GLYC',
+          'acd -> ALD2',
+          'ald -> 0.5*ALD2',
+          'act -> ACET',
+          'ket -> 0.5*ACET',
+          'hac -> HAC',
+          'olt -> 0.95*PRPE', 
+          'oli -> 0.05*PRPE',
+          'mvk -> MVK',
+          'paa -> MAP',
+          'onit -> R4N2',
+          'isopnd -> 0.20*ISOPN',
+          'isopnb -> 0.80*ISOPN',
+          'ora2 -> MOBA',
+          'op1 -> MP',
+          'ch4 -> CH4',
+          'no3 -> NO3',
+          'ho -> OH',
+          'orgpai->0.0207*OCPI+0.0207*OCPO;1.e9',
+          'orgpaj->0.3828*OCPI+0.3828*OCPO;1.e9',
+          'antha->0.0103*OCPI+0.0103*OCPO;1.e9',
+          'eci->0.1779*BCPI+0.1779*BCPO;1.e9',
+          'ecj->0.2359*BCPI+0.2359*BCPO;1.e9',
+          'clai->1.2*SALA;1.e9',
+          'naai->0.8*SALA;1.e9',
+          'claj->1.2*SALC;1.e9',
+          'naaj->0.8*SALC;1.e9',
+          'seas->2.0*SALC;1.e9',
+          'so4ai->0.0067*SO4;1.e9',
+          'so4aj->3.304*SO4;1.e9',
+          'no3ai->0.0043*NIT;1.e9',
+          'no3aj->2.134*NIT;1.e9',
+          'p25i->DST1;1.e9',
+          'p25j->DST2;1.e9',
+          'soila->DST3;1.e9'
+          'nu0->0.05*OCPI+0.05*OCPO+0.5*BCPI+0.05*BCPO+0.01*NIT+0.005*SALA+0.01*DST1;2.e17'
+/
+
